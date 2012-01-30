@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120130134256) do
+ActiveRecord::Schema.define(:version => 20120130191407) do
 
   create_table "spree_activators", :force => true do |t|
     t.string   "description"
@@ -448,6 +448,17 @@ ActiveRecord::Schema.define(:version => 20120130134256) do
     t.boolean  "match_none"
     t.boolean  "match_all"
     t.boolean  "match_one"
+  end
+
+  create_table "spree_skrill_transactions", :force => true do |t|
+    t.string   "email"
+    t.float    "amount"
+    t.string   "currency"
+    t.integer  "transaction_id"
+    t.integer  "customer_id"
+    t.string   "payment_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "spree_state_events", :force => true do |t|

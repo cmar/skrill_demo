@@ -44,7 +44,7 @@ GIT
 
 GIT
   remote: git@github.com:spree/spree_skrill.git
-  revision: 29746bfc3191e3a436c13ae16666d31d1c22fc93
+  revision: 6d1192e721865836faf1bb6cecc2f2f402c2a076
   specs:
     spree_skrill (0.70.1)
       spree_core (>= 0.70.1)

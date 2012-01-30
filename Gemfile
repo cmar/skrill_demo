@@ -33,9 +33,10 @@ group :test do
   # Pretty printed test output
   gem 'turn', '~> 0.8.3', :require => false
 end
-gem 'spree', :git => 'git@github.com:cmar/spree.git', :branch => 'dash_fix'
 
+gem 'spree', :git => 'git@github.com:cmar/spree.git', :branch => 'dash_fix'
 # gem 'spree', :git => 'https://github.com/spree/spree.git'
+
 gem 'spree_skrill', :git => 'git@github.com:spree/spree_skrill.git'
 
 group :development do
