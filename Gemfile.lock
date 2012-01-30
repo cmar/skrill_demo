@@ -1,13 +1,7 @@
 GIT
-  remote: git@github.com:spree/spree_skrill.git
-  revision: 29746bfc3191e3a436c13ae16666d31d1c22fc93
-  specs:
-    spree_skrill (0.70.1)
-      spree_core (>= 0.70.1)
-
-GIT
-  remote: https://github.com/spree/spree.git
-  revision: 8e6222b8cb1f994e6f6bc0d34d5d188a395eff20
+  remote: git@github.com:cmar/spree.git
+  revision: a0ed0ac2c6e5580be09867d5c31b01e0f129883c
+  branch: dash_fix
   specs:
     spree (1.0.0.rc2)
       spree_api (= 1.0.0.rc2)
@@ -47,6 +41,13 @@ GIT
       spree_core (= 1.0.0.rc2)
     spree_sample (1.0.0.rc2)
       spree_core (= 1.0.0.rc2)
+
+GIT
+  remote: git@github.com:spree/spree_skrill.git
+  revision: 29746bfc3191e3a436c13ae16666d31d1c22fc93
+  specs:
+    spree_skrill (0.70.1)
+      spree_core (>= 0.70.1)
 
 GEM
   remote: http://rubygems.org/
