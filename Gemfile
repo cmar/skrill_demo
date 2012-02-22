@@ -5,8 +5,6 @@ gem 'rails', '3.1.3'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -34,8 +32,7 @@ group :test do
   gem 'turn', '~> 0.8.3', :require => false
 end
 
-gem 'spree', :git => 'git@github.com:cmar/spree.git', :branch => 'dash_fix'
-# gem 'spree', :git => 'https://github.com/spree/spree.git'
+gem 'spree'
 
 gem 'spree_skrill', :git => 'git@github.com:spree/spree_skrill.git'
 
