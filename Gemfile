@@ -36,14 +36,16 @@ gem 'spree'
 
 gem 'spree_skrill', :git => 'git@github.com:spree/spree_skrill.git'
 
+gem 'capistrano'
+
 group :development do
   gem 'sqlite3'
 end
 
 group :production do
   gem 'mysql2', '0.3.7'
-  gem 'foreman'
-  gem 'unicorn'
-  gem 'therubyracer'
+  gem 'foreman', '0.37.2'
+  gem 'unicorn', '4.1.1'
+  gem 'therubyracer', '0.9.9'
 end
 
