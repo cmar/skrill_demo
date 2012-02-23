@@ -34,7 +34,7 @@ end
 
 gem 'spree'
 
-gem 'spree_skrill', :git => 'git@github.com:spree/spree_skrill.git'
+gem 'spree_skrill', :git => 'git@github.com:spree/spree_skrill.git', :branch => 'master'
 
 gem 'capistrano'
 
